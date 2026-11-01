@@ -1,0 +1,6 @@
+part,on_hand,inbound_qty,inbound_date
+MCU,700,3100,2024-03-18
+RGB LED,5000,0,2024-01-01
+LIN transceiver,5000,0,2024-01-01
+Light guide,3000,2000,2024-03-01
+Housing,2500,2000,2024-03-01

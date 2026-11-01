@@ -1,0 +1,6 @@
+station,cells,cycle_s_c_build,cycle_s_d_build
+SMT / AOI,1,15,15
+ICT & flash,1,24,24
+Housing & light guide,1,30,30
+Color calibration,1,46,26
+EOL & LIN test,1,34,24

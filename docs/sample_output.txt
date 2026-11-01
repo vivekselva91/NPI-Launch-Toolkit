@@ -1,0 +1,23 @@
+Takt: 37.8 s  |  demand 2000/day
+C-build constraint: Color calibration at 122%, max 1643/day
+Implied uptime at measured 1,590/day: 97%
+D-build max load: 79% (Housing & light guide)
+
+Clear-to-build (shortages only):
+  build part  need  available  shortage
+D build  MCU  2500       1900       600 
+
+C build wave 1 allocation of 700 MCU-limited units:
+    requester                       purpose  priority  requested  granted
+   Validation    PV color and thermal tests         1        240      240
+          OEM           Trim-install trials         1        160      160
+   Validation         Rattle and durability         2        120      120
+ Process eng. Calibration correlation study         2         60       60
+Manufacturing      Line trials and training         3        250      120
+     Internal            Display and spares         4        150        0 
+
+First-principles checks:
+  Clip strain at nominal: 2.16%  (PC/ABS allowable ~2.5%)
+  Clip strain at worst-case stack: 2.88%  (PC/ABS allowable ~2.5%)
+  Red LED flux drift for +18 K warm-up: -14%
+  Integration time at 10% vs 100% brightness: 10x
